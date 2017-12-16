@@ -8,6 +8,10 @@
 	<?php
 		$a = $_SERVER["REQUEST_URI"];
 		echo $a;
+
+		$var = preg_split("#/#", $a); 
+
+		print_r($var);
 	?>
 </body>
 </html>
