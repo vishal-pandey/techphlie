@@ -11,7 +11,8 @@
 
 		$var = preg_split("#/#", $a); 
 
-		print_r($var);
+		// print_r($var);
+		echo $var[1];
 	?>
 </body>
 </html>
