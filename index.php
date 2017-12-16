@@ -10,6 +10,6 @@
 		$var = preg_split("#/#", $a); 
 		echo $var[1];
 	?>
-	dsf
+	dkmshbdcs
 </body>
 </html>
