@@ -15,10 +15,10 @@
 		if ($var[1] == "" ) {
 			include "./view/create.php";
 		}else{
-			include "./view.short.php";
+			include "./view/short.php";
 		}
 		
-		include "./view/create.php";
+		// include "./view/create.php";
 	?>
 </body>
 </html>
