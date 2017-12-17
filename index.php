@@ -9,7 +9,7 @@
 		$a = $_SERVER["REQUEST_URI"];
 		$var = preg_split("#/#", $a); 
 		echo $var[1];
-		if ($var == "") {
+		if ($var === "") {
 			echo "Hi";
 		}
 	?>
