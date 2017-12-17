@@ -5,5 +5,7 @@
 	$result = $conn->query($sql);
 	$row = $result->fetch_assoc();
 	$thelink = $row['link'];
-	echo "<a href='{$thelink}'></a>";
+	if ($thelink != "") {
+		echo "<a href='{$thelink}'></a>";
+	}
 ?>
