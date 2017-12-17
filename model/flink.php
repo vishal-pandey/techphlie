@@ -7,5 +7,7 @@
 	$thelink = $row['link'];
 	if ($thelink != "") {
 		echo "<a href='{$thelink}'></a>";
+	}else{
+		echo '<script type="text/javascript">window.location.href = "http://script.techphlie.com";</script>';
 	}
 ?>
